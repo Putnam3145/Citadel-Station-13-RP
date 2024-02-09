@@ -114,10 +114,16 @@
 	under_state = "pool"
 	outdoors = FALSE
 
+/turf/simulated/floor/water/pool/pre_fishing_query(/obj/item/fishing_rod/rod, mob/user)
+	SEND_SIGNAL(src, COMSIG_PRE_FISHING_QUERY, rod, user)
+
 /turf/simulated/floor/water/deep/pool
 	name = "deep pool"
 	desc = "Don't worry, it's not closed."
 	outdoors = FALSE
+
+/turf/simulated/floor/water/deep/pool/pre_fishing_query(/obj/item/fishing_rod/rod, mob/user)
+	SEND_SIGNAL(src, COMSIG_PRE_FISHING_QUERY, rod, user)
 
 /mob/living/proc/can_breathe_water()
 	return FALSE
