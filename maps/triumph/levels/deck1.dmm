@@ -408,7 +408,9 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 9
 	},
-/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 9
+	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/engineering/starboardnacelle)
 "bh" = (
@@ -7883,9 +7885,6 @@
 /area/engineering/atmos/storage)
 "Az" = (
 /obj/machinery/atmospherics/portables_connector,
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
 /obj/effect/floor_decal/industrial/outline/blue,
 /turf/simulated/floor/tiled/techmaint,
 /area/engineering/starboardnacelle)
@@ -8249,9 +8248,6 @@
 	id = "portnacelle_blastdoor";
 	opacity = 0
 	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
 /obj/spawner/window/low_wall/borosillicate/full,
 /obj/effect/paint_stripe/sun,
 /turf/simulated/floor/tiled/techfloor/grid,
@@ -8611,9 +8607,6 @@
 	icon_state = "pdoor0";
 	id = "starboardnacelle_blastdoor";
 	opacity = 0
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
 	},
 /obj/spawner/window/low_wall/borosillicate/full,
 /obj/effect/paint_stripe/sun,
@@ -9559,8 +9552,8 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 10
 	},
-/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
-	dir = 1
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 10
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/engineering/portnacelle)
@@ -9755,15 +9748,6 @@
 /obj/machinery/door/airlock,
 /turf/simulated/floor/tiled/white,
 /area/engineering/foyer_mezzenine)
-"GS" = (
-/obj/machinery/atmospherics/component/unary/vent_scrubber/on{
-	dir = 8
-	},
-/obj/machinery/atmospherics/pipe/simple/heat_exchanging{
-	dir = 6
-	},
-/turf/simulated/floor/airless/ceiling,
-/area/engineering/starboardnacelle)
 "GZ" = (
 /obj/structure/window/reinforced{
 	dir = 8
@@ -11089,9 +11073,6 @@
 /turf/simulated/floor/tiled,
 /area/engineering/atmos/monitoring)
 "Lq" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
 /obj/structure/bed/chair{
 	dir = 4
 	},
@@ -12793,15 +12774,6 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/tiled/techmaint,
 /area/engineering/atmos)
-"Rf" = (
-/obj/machinery/atmospherics/component/unary/vent_scrubber/on{
-	dir = 8
-	},
-/obj/machinery/atmospherics/pipe/simple/heat_exchanging{
-	dir = 5
-	},
-/turf/simulated/floor/airless/ceiling,
-/area/engineering/portnacelle)
 "Rg" = (
 /obj/structure/atmos_tank_segment/n2{
 	icon_state = "1,2"
@@ -12925,9 +12897,6 @@
 /turf/space/basic,
 /area/engineering/atmos/gas_storage)
 "Rz" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
 /obj/machinery/portable_atmospherics/canister/phoron,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/engineering/portnacelle)
@@ -13354,9 +13323,6 @@
 "SZ" = (
 /obj/machinery/atmospherics/portables_connector{
 	dir = 1
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
 	},
 /obj/effect/floor_decal/industrial/outline/blue,
 /turf/simulated/floor/tiled/techmaint,
@@ -28658,7 +28624,7 @@ sH
 oy
 Tf
 Aw
-Rf
+ON
 qo
 EZ
 TP
@@ -28690,7 +28656,7 @@ Ze
 TP
 Oq
 cN
-GS
+SP
 Fi
 tA
 oy
